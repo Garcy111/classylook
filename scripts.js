@@ -383,4 +383,10 @@ $(document).ready(function(){
     }
   });
 
+  $('.top-search').mytoggle(function(){
+    $('.search-form').show();
+  }, function(){
+    $('.search-form').hide();
+  });
+
 });
